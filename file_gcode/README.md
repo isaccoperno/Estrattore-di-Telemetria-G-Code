@@ -1,0 +1,1 @@
+Cartella che contiene i file gcode dei vari file mandati in stampa, pronti per essere analizzati dal file main.py che calcolerà la distanza percorsa dall'estrusore della stampante 3d.

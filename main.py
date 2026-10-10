@@ -40,7 +40,8 @@ def calcola_distanza_estrusore(filepath):
 
     return distanza_totale
 
-# Come utilizzarlo
-# filepath = "modello_bambu.gcode"
-# distanza = calcola_distanza_estrusore(filepath)
-# print(f"Distanza totale percorsa dall'estrusore: {distanza / 1000:.2f} metri")
+nome_file_gcode = input("Inserisci il nome del gcode da analizzare (escluso il .gcode finale): ")
+
+filepath = f"file_gcode/{nome_file_gcode}.gcode"
+distanza = calcola_distanza_estrusore(filepath)
+print(f"Distanza totale percorsa dall'estrusore: {distanza / 1000:.2f} metri")
